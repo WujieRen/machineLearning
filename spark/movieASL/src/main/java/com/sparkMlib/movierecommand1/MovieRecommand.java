@@ -20,8 +20,13 @@ import java.util.List;
 /**
  * Created by renwujie on 2017/12/29 at 12:46
  *
+ * Reference:
+ *  1. https://zhuanlan.zhihu.com/p/30035244
+ *  2. http://blog.csdn.net/dulinanaaa/article/details/54970962
+ *  3. http://blog.csdn.net/qq1010885678/article/details/46052055
+ *
  * 采用更新version时会报错：
- *  Caused by: java.lang.NoSuchMethodError: scala.Predef$.$conforms()Lscala/Predef$$less$colon$less;
+ *  Caused by: java.lang.NoSuchMethodError: scala.Predef$.$conforms(Lscala/Predef$$less$colon$less;
  *
  * 原因不明，还没解决。
  *
